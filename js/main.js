@@ -1,5 +1,5 @@
 function loadPage(page, addToHistory = true) {
-    fetch(`../html/${page}.html`)
+    fetch(`/${page}.html`)
         .then(response => response.text())
         .then(data => {
             document.getElementById('content').innerHTML = data;
@@ -66,17 +66,17 @@ $(document).ready(function () {
 
 function loadMenu() {
     var items = [
-        { name: 'Straberry Cream', img: '../img/straberry_cream.jpg' },
-        { name: 'Matcha Cream', img: '../img/matcha_cream.jpg' },
-        { name: 'Caramel Apple Cinnamon', img: '../img/caramel_apple_cinnamon.jpg' },
-        { name: 'Original', img: '../img/original.jpg' },
-        { name: 'Chocolate Truffle', img: '../img/chocolate_truffle.jpg' },
-        { name: 'Ube', img: '../img/ube.jpg' },
+        { name: 'Straberry Cream', img: '/img/straberry_cream.jpg' },
+        { name: 'Matcha Cream', img: '/img/matcha_cream.jpg' },
+        { name: 'Caramel Apple Cinnamon', img: '/img/caramel_apple_cinnamon.jpg' },
+        { name: 'Original', img: '/img/original.jpg' },
+        { name: 'Chocolate Truffle', img: '/img/chocolate_truffle.jpg' },
+        { name: 'Ube', img: '/img/ube.jpg' },
         // {name: 'Taro', img: './img/taro.jpg'},
-        { name: 'Cookie Cream', img: '../img/cookie_cream.jpg' },
-        { name: 'Black Sesame', img: '../img/black_sesame.jpg' },
+        { name: 'Cookie Cream', img: '/img/cookie_cream.jpg' },
+        { name: 'Black Sesame', img: '/img/black_sesame.jpg' },
         // {name: 'Lavender', img: './img/lavender.jpg'},
-        { name: 'Salty Caramel Macchiato', img: '../img/salty_caramel_macchiato.jpg' },
+        { name: 'Salty Caramel Macchiato', img: '/img/salty_caramel_macchiato.jpg' },
     ];
 
     var html = '';

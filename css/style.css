@@ -9805,7 +9805,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/title_back.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img/title_back.jpg);
   background-size: contain;
 }
 
@@ -10159,7 +10159,7 @@ h6,
 
 .home_background {
   position: relative;
-  background: url('../img/home.jpg');
+  background: url('/img/home.jpg');
   width: 100%;
   height: min(100vh, 100vw);
   background-attachment: fixed;
