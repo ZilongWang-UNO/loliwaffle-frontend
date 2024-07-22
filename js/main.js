@@ -1,5 +1,5 @@
 function loadPage(page, addToHistory = true) {
-    fetch(`../html/${page}.html`)
+    fetch(`./html/${page}.html`)
         .then(response => response.text())
         .then(data => {
             document.getElementById('content').innerHTML = data;
