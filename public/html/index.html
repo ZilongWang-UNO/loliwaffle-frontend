@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Loli Waffle</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="../img/logo.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <link href="../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../../lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div id="headerDiv" class="headerNavBarDiv">
+        <ul class="headerNavBar nav justify-content-center">
+            <li class="nav-item">
+                <img class="logo" src="../img/clear_logo.png">
+            </li>
+            <li class="nav-item header_home">
+                <a href="#" onclick="loadPage('home'); return false;">Home</a>
+            </li>
+            <li class="nav-item header_about">
+                <a href="#" onclick="loadPage('about'); return false;">About</a>
+            </li>
+            <li class="nav-item header_menu">
+                <a href="#" onclick="loadPage('menu'); return false;">Menu</a>
+            </li>
+            <li class="nav-item header_hiring">
+                <a href="#" onclick="loadPage('hiring'); return false;">Hiring</a>
+            </li>
+            <li class="nav-item header_franchising">
+                <a href="#" onclick="loadPage('franchising'); return false;">Franchising</a>
+            </li>
+            <li class="nav-item header_contact">
+                <a href="#" onclick="loadPage('contact'); return false;">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <span class="menu-title">Loli Waffle</span>
+        <ul class="menu__box">
+                <li><a class="menu__item" href="#" onclick="loadPage('home'); return false;">Home</a></li>
+                <li><a class="menu__item" href="#" onclick="loadPage('about'); return false;">About</a></li>
+                <li><a class="menu__item" href="#" onclick="loadPage('menu'); return false;">Menu</a></li>
+                <li><a class="menu__item" href="#" onclick="loadPage('hiring'); return false;">Hiring</a></li>
+                <li><a class="menu__item" href="#" onclick="loadPage('franchising'); return false;">Franchising</a></li>
+                <li><a class="menu__item" href="#" onclick="loadPage('contact'); return false;">Contact</a></li>
+        </ul>
+      </div>
+
+    <div id="content"></div>
+
+    <div id="footerDiv" class="container-fluid footer bg-light py-5">
+        <div class="container text-center py-5">
+            <div class="row">
+                <!-- <div class="col-12 mb-4">
+                        <a href="index.html" class="navbar-brand m-0">
+                            <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">LO</span>LI</h1>
+                        </a>
+                    </div> -->
+                <div class="col-12 mb-4 social_media_div">
+                    <a class="btn btn-outline-secondary btn-social mr-2 tiktokA" target="_blank"
+                        href="https://www.tiktok.com/@loliwaffleofficial"><i class="fab fa-tiktok"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2 instagramA" target="_blank"
+                        href="https://www.instagram.com/loliwaffle_official/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2 hide facebookA" target="_blank" href=""><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2 hide twitterA" target="_blank" href=""><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2 hide youtubeA" target="_blank" href=""><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2 foot_location">Location</h5>
+                            <!-- <P>400 Bellevue Square Ste 188</p> -->
+                            <!-- <P>Bellevue, WA 98004</p> -->
+                            <P>(206) 771-4055</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2 foot_hour">Open Hours</h5>
+                            <br>
+                            <p>Mon - Sat: 10AM - 9PM</p>
+                            <p>Sun: 11AM - 7PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+</body>
+
+</html>
